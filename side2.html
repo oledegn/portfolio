@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Side2</title>
+        <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>  <!-- headersektion indeholdende links og overskrift -->
+      <br/>
+      <div style="text-align:left;">
+      <h2>MMD PORTFOLIO 2021</h2>
+      </div>
+
+      <div style="text-align:right;">
+        <tr>
+          <th><a href="index.html">Forside</a></th>
+          <th><a href="side2.html">Kode</a></th>
+          <th><a href="side3.html">Tekst</a></th>
+          <th><a href="side4.html">Kommunikation</a></th>
+          <th><a href="side5.html">Design</a></th>
+          <th><a href="side6.html">DesignThinking</a></th>
+          <th><a href="side7.html">Adfærd-Test</a></th>
+          <th><a href="side8.html">SoMe</a></th>
+          <th><a href="side9.html">Foto</a></th>
+        </tr>
+      </div>
+    </header>
+      <div class="overskrift">
+          <!-- bogheader med overskrift -->
+          <img src="02lysere.jpg" id="headerphoto"; width="100%">
+          <div class="centered">KODE</div>       
+      </div>   
+          <!-- sort overskriftsblok med menupunkt/overskrift -->
+      <section id="overskriftsblok">
+          <div class= "container-1">
+          <div class="box-1">
+            <h2>HTML & CSS</h2>  
+          </div>
+      </section>
+                
+       
+          <!-- artikel om html mv i hvid flexbox -->
+      <section id="html">
+          <div class= "container-1">
+          <div class="box-1" style="width: 900px; margin-left: 3px" alt="top">
+            <br/>
+            <p>Det er gået op for mig at ”webdesignere er nødt til at kende til HTML og CSS i et vist omfang, da det er selve det grundlæggende sprog
+            i det medie designeren arbejder med, ikke mindst pga et stigende behov for at tilpasse designet til forskellige medier og skærmstørrelser” 
+            (J.N. Robbins: Learning Web Design, p 10) </p>
+            <br>
+            <p><b>HTML (Hyper Text Markup Language):</b></p>
+             Består af en række tags, som tilsammen udgør selve ”sprog”-strukturen for en hjemmeside. Disse tags kan være semantiske eller ikke-semantiske, 
+            hvor sidstnævnte, f.eks. "div" (inddeling) og "span" (sætningsindhold), ikke siger noget om indholdet. Det gør de semantiske tags til gengæld, 
+            som er bedre at bruge, og kunne være f.eks.: "header" (sidehoved), "footer" (sidefod), "section" (sektion), "article" (tekst) eller h1 
+            (stor overskrift). Der indledes med et start-tag "tagname" og afsluttes med et end-tags "/tagname". 
+            <br><br>
+            <p><b>CSS (Cascading Style Sheets):</b></p>
+            <p>Hvor HTML bruges til at beskrive indholdet på en hjemmeside, bruges CSS til at beskrive hvordan dette skal se ud – man ”styler” altså 
+            indholdet (farver, fonte, baggrundsbilleder, side-layout osv.). I CSS bruger man ”tuborg-tags”{ } til at omkranse den styling man ønsker. 
+            CSS-sproget kan være integreret på HTML-siden eller (smartere) laves på sin egen side, som så linkes til HTML-dokumentet.</p>
+            <p>Eksempel på CSS: body { font: italic; color: black } = Alt indholdet imellem body-tags i HTML får nu fonten ”Italic” og farven ”sort”.</p>
+            <br>
+            <p><b>CSS Grid:</b></p> Er det nyeste indenfor CSS-standarden, hvor man placerer sine elementer i et gridsystem (2 akser). Det bygger delvist videre på flexbox 
+            (kun 1 akse), og afløser til dels også dette. Også responsive webdesign er en nyere landvinding indenfor styling, hvor man kan tilpasse sit CSS-design 
+            til forskellige skærmstørrelser.</p>  
+          </div>
+                        
+          <!-- Eks: jpg med eks på grundliggende html struktur i hvid flexbox -->
+          <div class="box-2" style="width: 900px; margin-left: 130px" alt="top">
+            <br>
+            <p>Eksempel på grundliggende <b>HTML-struktur</b> (bemærk indrykningerne til venstre, der skaber overblik):</p>
+            <br>
+            <img src="htmlstruktur.jpg" id="htmlstruktur"; width="100%">
+          </div>
+      </section>
+          <!-- overskriftsblok -->
+      <section id="overskriftsblokdustoliven">
+          <div class= "container-1">
+          <div class="box-1">
+            <h2>FAGUDTRYK OG KODEPROJEKTER</h2>  
+          </div>
+      </section>
+          <!-- artikel i flexbox hvid -->
+      <section id="fagudtryk">
+          <div class= "container-1">
+          <div class="box-1" style="width: 900px; margin-left: 3px" alt="top">
+            <br/>
+            <p><b>Kode-editor:</b></p>
+            <p>Koden for HTML og CSS skrives ind i en editor, og der findes en del af slagsen. Jeg har afprøvet Atom og Microsoft Visual Studio (VSC), og bruger 
+            pt. sidstnævnte.</p>
+            <br>
+            <p><b>Client/server:</b></p>
+            <p>Selve fundamentet for brugen af internettet:</p> 
+            <p>Clienten efterspørger data, og kan være en browser (f.eks. Safari, Microsoft Edge eller Google Chrome). Serveren er ”computeren”, der hoster 
+            ”sitet” eller de data der ønskes (f.eks. IIS eller Apache) - vi bruger Danias servere, der er placeret i Nordjylland.</p> 
+            <p>Man benytter desuden FTP (File Transfer Protocol) til at flytte data frem og tilbage.</p>
+            <br>
+            <p><b>User interface værktøjer:</b></p>
+            <p>Et nyere fænomen er nogle design-værktøjer, hvor man kan pre-designe layouts før selve programmeringen af websitet. Man kan afprøve sine designs 
+            i forskellige skærmstørrelser på test-niveau, og efterfølgende endda eksportere kode og data til den endelige kodning. Vi har afprøvet Adobe XD 
+            (se Design-redesign).</p> 
+            <br>
+            <p><b>IP-adresse (Internet Protocol):</b></p>
+            <p>Enhver computer og andre enheder på nettet får tildelt et nummer, f.eks. 123.45.678.90. IP er protokoller, som har større relevans for 
+            computer-software end mennesker. De er knudepunkter, der forbinder verden.</p>
+            <br>
+            <p><b>URL (uniform ressource locator):</b></p>
+            <p>Er websideadresser, f.eks. http://www.eksempel.dk/2021/endeligversion.html - hvor:
+            <p>http:// (HyperText Transfer Protocol) = indledende protocol, hvor serveren går i ”web mode”.</p>
+            <p>https:// = secure protocol, hvor brugerens data er mere sikre (bruges af efterhånden 60% websites) </p>
+            <p>www = efterhånden en konvention, men den kan ofte undlades</p>
+            <p>eksempel.dk = domænenavnet</p>
+            <p>/2021/ = root-directory (efter det første slash /)</p>
+            <p>endeligversion.html = selve dokumentet</p>
+            <br>
+            <br>
+            <h3>PRÆSENTATION OG CV</h3>
+      <section id="dustoliven">
+            <a href="http://15467.web.dania-studerende.dk/tema1", target="blank">Link her</a>
+      </section>
+            <br>
+            <p>Mit præsentationswebsite har jeg valgt at holde enkel i sorte, hvide og grå nuancer, med enkelte farver på side 2 (photoshop-redigeret mmd-foto)
+            og side 3 (præsentation af mine fotos). CV er lavet i tabel med float.</p>        
+            <br>        
+          </div>
+          <!-- links og artikel i flexbox hvid -->              
+          <div class="box-2" style="width: 900px; margin-left: 130px" alt="top">
+            <h3>CMS-PROJEKT</h3>
+      <section id="dustoliven">
+            <a href="cms.pdf", target="blank">Link her</a>
+      </section>
+            <br>
+            <p>Afslutningsvis på semestret skulle vi undersøge og sammenligne tre forskellige CMS-systemer(Content Management System): Wordpress, Joomla og Umbraco Uno. Klik 
+            for min rapport.</p>
+            <br>
+            <br>                   
+            <h3>VERSIONSSTYRING</h3>
+            <br>
+            <p>Som versionsstyringssystem ifm. denne opgave har jeg benyttet GitHub, der er en standard indenfor backup af kode i dag. Hermed undgår 
+            man at komme til at slette noget ved en fejl, og desuden kan man gå tilbage til tidligere backup-versioner, hvis man har fortrudt.</p> 
+            <p>Man tilgår sine filer på github.com eller måske lettere via GitHub desktop, der kan downloades til computeren.</p> 
+            <p>Jeg har brugt GitHub i forbindelse med denne opgave, idet jeg har oprettet en destinationsmappe kaldet ”portfolie”, og 
+            dagligt koblet på GitHub desktop og gemt det sidst nye.</p>
+            <br> <br>
+            <p><b>Her er en forklaring på de forskellige begreber i GitHub:</b></p>
+            <section id="listspredt">
+            <p> <ul>
+                  <li>Repository: Er selve hovedmappen som oprettes først, når man navngiver sit projekt</li>
+                  <li>Commit: Når man gemmer sit projekt, trykkes commit, og versionen lige nu gemmes</li>
+                  <li>Branch ( = gren). Main branch er ”hovedgrenen”, som man arbejder på, men man kan oprette endnu en branch (= sidegren, der tager udgangspunkt
+                  i main branch), hvis jeg ønsker at eksperimentere i en ny retning, uden at ødelægge det oprindelige</li>
+                  <li>Pull Request: Når man åbner pull request, foreslår man ændringer, f.eks. til gennemsyn hos andre, som kan inviteres til at se dem, eller de kan 
+                  flette dette ind i deres eget projekt. Da denne delingsmulighed er meget benyttet, tangerer GitHub et socialt medie</li>
+                  <li>Merge: Hvis man ønsker at flette ændringerne i Pull Request sammen med f.eks. sit Main branch</li>
+                </ul>
+            </p>
+            </section>
+          </div>
+          
+      </section> 
+      <section id="overskriftsblok">
+        <div class= "container-1">
+        <div class="box-1">
+          <h3></h3>  
+        </div>
+      </section>
+               
+    <footer>
+        <div class="footerfoto">
+        <!-- footerfoto med copyright -->
+        <img src="20footer.jpg" id="footerfoto" width="100%">
+        <div class="centered">Ole Degn 2021</div>       
+        </div>   
+    </footer>
+  </body>
+</html>
